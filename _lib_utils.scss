@@ -1,0 +1,20 @@
+/* CKELLEY UTILS LIB - COPYRIGHT 2013 */
+
+@mixin dimension($width,$height){
+	width:		$width;
+	height:		$height;
+}
+
+@mixin box($padding:0px,$border:0px,$margin:0px){
+	padding:	$padding;
+	border:		$border;
+	margin:		$margin;
+}
+
+@mixin browser($property,$settings...){
+	-webkit-#{$property}:	$settings;
+	   -moz-#{$property}:	$settings;
+	    -ms-#{$property}:	$settings;
+	     -o-#{$property}:	$settings;
+	        #{$property}:	$settings;
+}

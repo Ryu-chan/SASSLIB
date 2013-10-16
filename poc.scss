@@ -1,0 +1,11 @@
+@import "lib_colors.scss";
+@import "lib_init.scss";
+@import "lib_utils.scss";
+@import "lib_fonts.scss";
+
+*{
+	@include dimension(30,30);
+	color: color(RED);
+
+
+}
